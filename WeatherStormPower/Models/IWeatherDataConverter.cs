@@ -2,5 +2,5 @@
 
 public interface IWeatherDataConverter
 {
-    WeatherData Convert(WeatherData data);
+    WeatherData Convert(string input);
 }
