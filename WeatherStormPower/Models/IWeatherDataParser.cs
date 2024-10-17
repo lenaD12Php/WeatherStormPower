@@ -1,6 +1,6 @@
 ﻿namespace WeatherStormPower.Models;
 
-public interface IWeatherDataConverter
+public interface IWeatherDataParser
 {
-    WeatherData Convert(string input);
+    WeatherData Parse(string input);
 }

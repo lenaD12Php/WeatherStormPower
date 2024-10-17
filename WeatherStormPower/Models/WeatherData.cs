@@ -1,6 +1,6 @@
 ﻿namespace WeatherStormPower.Models;
 
-public class WeatherData
+public class WeatherData 
 {
     public string Location {  get; set; }
     public double Temperature { get; set; }

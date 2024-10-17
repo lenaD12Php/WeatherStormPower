@@ -13,7 +13,7 @@ public class RainBot : IWeatherBot
         _enabled = enabled;
     }
 
-    public void CheckWeather(WeatherData data)
+    public void UpdateWeather(WeatherData data)
     {
         if (_enabled && data.Humidity > _humidityThreshold)
         {

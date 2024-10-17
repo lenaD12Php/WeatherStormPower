@@ -2,5 +2,5 @@
 
 public interface IWeatherBot
 {
-    void CheckWeather(WeatherData data);
+    void UpdateWeather(WeatherData data);
 }
